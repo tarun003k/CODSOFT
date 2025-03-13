@@ -1,0 +1,234 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e0133, #3e0c5d, #4d117a);
+    color: #fff;
+    line-height: 1.8;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #1e0133, #3e0c5d, #4d117a);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header h1 {
+    color: #ffcc00; /* Gold color */
+    text-shadow: 0 0 15px rgba(255, 204, 0, 0.7); /* Soft glow */
+    font-size: 40px;
+    font-weight: 700;
+}
+
+header p {
+    color: #ffcc00; /* Gold color */
+    text-shadow: 0 0 10px rgba(255, 204, 0, 0.5); /* Soft glow */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    border: 2px solid #fff; /* White border */
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+}
+
+/* Navigation */
+nav {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Headings */
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+h2, h3 {
+    text-align: center;
+    color: #FFFDD0; /* Cream color */
+    text-shadow: 0 0 10px rgba(255, 253, 208, 0.3); /* Soft cream glow */
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Coin Logo */
+.coin-logo {
+    width: 150px;  /* Adjust size for a coin-like appearance */
+    height: 150px;
+    border-radius: 50%; /* Makes it round */
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5); /* Optional glow effect */
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.project img {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* Soft white glow */
+    padding: 5px; /* Padding for spacing */
+    object-fit: cover; /* Ensure the image fills the circle */
+}
+
+/* Skills Section */
+#skills {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.skills-container span {
+    white-space: nowrap;
+    color: #ffcc00;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Resume Section */
+#resume {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#resume a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #FFD700; /* Gold color */
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#resume a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+}
+
+/* Contact Section */
+#contact {
+    display: flex; /* Use flex for easy centering */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align horizontally */
+    justify-content: center; /* Center align vertically */
+    padding: 20px 0;
+    border-top: 1px solid #fff; /* Add a subtle top border */
+}
+
+#contact p {
+    font-size: 14px; /* Smaller font size */
+    margin: 5px 0; /* Add small margin */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 14px; /* Smaller font size */
+    padding: 20px 0;
+    background: rgba(255, 255, 255, 0.1); /* Light transparent background */
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Add space between elements */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    margin: 0;
+    color: #ccc; /* Light grey color */
+}
